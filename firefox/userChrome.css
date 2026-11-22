@@ -1,0 +1,33 @@
+tabpanels vbox{
+  margin: 0px 8px 8px 8px!important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+div.buttons-wrapper {
+  justify-content: space-around !important;
+  overflow: hidden !important;
+  width: 100% !important;
+}
+
+div.buttons-wrapper > button-group {
+  width: 100% !important;
+  justify-content: space-between !important;
+  overflow: hidden !important;
+}
+
+#sidebar-container {
+  width: 235px !important;
+}
+
+#sidebar-tools-and-extensions-splitter {
+  display: none !important;
+}
+
+button-group.overflow-button {
+  display: none !important;
+}
+
+#pinned-tabs-container{
+  height: auto !important;
+}
